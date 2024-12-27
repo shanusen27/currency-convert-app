@@ -6,6 +6,7 @@ This is a React Native application that allows users to convert amounts from Sri
 - Press the "Convert" button.
 - The equivalent amount in USD will be displayed below the button.
 
-## ⭐ Here is the output
-![Screenshot (311)](https://github.com/user-attachments/assets/c77afa53-e45a-4dd4-8018-f5c5b5df6e96)
+## ⭐ Here is the outputs
+![Screenshot (315)](https://github.com/user-attachments/assets/4cf99692-ac3f-4899-85c8-8f8cb7307e73)
+
 
