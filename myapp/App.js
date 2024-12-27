@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
-import { TouchableOpacity } from 'react-native';
 
 export default function App() {
   const [lkrAmount, setLkrAmount] = useState('');
@@ -28,7 +27,7 @@ export default function App() {
         value={lkrAmount}
         onChangeText={setLkrAmount}
       />
-       <Button title="Convert" onPress={handleConvert} />
+      <Button title="Convert" onPress={handleConvert} />
       {usdAmount && (
         <Text style={styles.result}>USD: ${usdAmount}</Text>
       )}
@@ -48,7 +47,8 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#333',
+    color: '#00008b', 
+    textDecorationLine: 'underline', 
   },
   input: {
     height: 40,
@@ -59,13 +59,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginBottom: 20,
     backgroundColor: '#fff',
-  },
-  buttonContainer: {
-    marginTop: 10, 
-    borderWidth: 2, 
-    borderRadius: 5,
-    backgroundColor: '#ADD8E6',
-    overflow: 'hidden',
   },
   result: {
     marginTop: 20,
