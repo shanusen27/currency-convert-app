@@ -44,5 +44,11 @@ const styles = StyleSheet.create({
     padding: 16,
   },
 });
+heading: {
+  fontSize: 24,
+  fontWeight: 'bold',
+  marginBottom: 20,
+  color: '#333',
+},
 
 
