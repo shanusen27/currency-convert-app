@@ -5,3 +5,7 @@ This is a React Native application that allows users to convert amounts from Sri
 - Enter an amount in LKR into the input field.
 - Press the "Convert" button.
 - The equivalent amount in USD will be displayed below the button.
+
+## ⭐ Here is the output
+![Screenshot (311)](https://github.com/user-attachments/assets/c77afa53-e45a-4dd4-8018-f5c5b5df6e96)
+
