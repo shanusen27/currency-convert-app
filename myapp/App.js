@@ -59,6 +59,13 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     backgroundColor: '#fff',
   },
+  buttonContainer: {
+    marginTop: 10,
+    borderColor: '#00008b', 
+    borderWidth: 2, 
+    borderRadius: 5,
+    overflow: 'hidden',
+  },
   result: {
     marginTop: 20,
     fontSize: 18,
