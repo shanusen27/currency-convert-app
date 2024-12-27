@@ -43,27 +43,26 @@ const styles = StyleSheet.create({
     backgroundColor: '#f5f5f5',
     padding: 16,
   },
-});
-heading: {
-  fontSize: 24,
-  fontWeight: 'bold',
-  marginBottom: 20,
-  color: '#333',
-},
-input: {
-  height: 40,
-  width: '80%',
-  borderColor: '#ccc',
-  borderWidth: 1,
-  borderRadius: 5,
-  paddingHorizontal: 10,
-  marginBottom: 20,
-  backgroundColor: '#fff',
-},
-result: {
-  marginTop: 20,
-  fontSize: 18,
-  color: '#4caf50',
-},
+  heading: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    color: '#333',
+  },
+  input: {
+    height: 40,
+    width: '80%',
+    borderColor: '#ccc',
+    borderWidth: 1,
+    borderRadius: 5,
+    paddingHorizontal: 10,
+    marginBottom: 20,
+    backgroundColor: '#fff',
+  },
+  result: {
+    marginTop: 20,
+    fontSize: 18,
+    color: '#4caf50',
+  },
 
 
