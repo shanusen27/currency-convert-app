@@ -60,5 +60,10 @@ input: {
   marginBottom: 20,
   backgroundColor: '#fff',
 },
+result: {
+  marginTop: 20,
+  fontSize: 18,
+  color: '#4caf50',
+},
 
 
