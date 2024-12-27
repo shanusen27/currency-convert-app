@@ -28,9 +28,7 @@ export default function App() {
         value={lkrAmount}
         onChangeText={setLkrAmount}
       />
-       <TouchableOpacity style={styles.buttonContainer} onPress={handleConvert}>
-        <Text style={styles.buttonText}>Convert</Text>
-      </TouchableOpacity>
+       <Button title="Convert" onPress={handleConvert} />
       {usdAmount && (
         <Text style={styles.result}>USD: ${usdAmount}</Text>
       )}
