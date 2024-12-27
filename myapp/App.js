@@ -50,5 +50,15 @@ heading: {
   marginBottom: 20,
   color: '#333',
 },
+input: {
+  height: 40,
+  width: '80%',
+  borderColor: '#ccc',
+  borderWidth: 1,
+  borderRadius: 5,
+  paddingHorizontal: 10,
+  marginBottom: 20,
+  backgroundColor: '#fff',
+},
 
 
