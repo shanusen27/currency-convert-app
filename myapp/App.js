@@ -17,4 +17,22 @@ export default function App() {
     setUsdAmount(convertedAmount);
   };
 
+  return (
+    <View style={styles.container}>
+      <Text style={styles.heading}>LKR to USD Converter</Text>
+      <TextInput
+        style={styles.input}
+        placeholder="Enter amount in LKR"
+        keyboardType="numeric"
+        value={lkrAmount}
+        onChangeText={setLkrAmount}
+      />
+      <Button title="Convert" onPress={handleConvert} />
+      {usdAmount && (
+        <Text style={styles.result}>USD: ${usdAmount}</Text>
+      )}
+    </View>
+  );
+}
+
 
