@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#e6e6fa',
     padding: 16,
   },
   heading: {
@@ -59,11 +59,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginBottom: 20,
     backgroundColor: '#fff',
+    fontWeight: 'bold',
   },
   result: {
     marginTop: 20,
     fontSize: 18,
-    color: '#4caf50',
+    color: '#00008b', 
+    fontWeight: 'bold',
   },
 });
 
